@@ -1,2 +1,32 @@
 /* Globales*/
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+.bg-calipso {
+    background-color: #0DCAF0;
+}
+
+/*Magia del Navbar*/
+.navbar.navbar-custom {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom a.navbar-brand {
+    color: white !important;
+    /* Cambia al color deseado para los items del navbar cuando el fondo es blanco */
+}
+
+.navbar.navbar-custom.scrolled {
+    background-color: #ffffff;
+    /* Cambia al color deseado cuando el navbar esté fijo */
+}
+
+.navbar-custom.scrolled .navbar-nav .nav-link,
+.navbar-custom.scrolled a.navbar-brand {
+    color: #000 !important;
+}
