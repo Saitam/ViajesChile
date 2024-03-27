@@ -220,19 +220,23 @@
         <h6 class="text-uppercase text-center text-white my-5 display-6">Contacto</h6>
         <form>
             <div class="mb-3">
-                <label for="nombre" class="text-white form-label">Nombre</label>
+                <label for="nombre" class="text-white form-label" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Favor de ingresar tu nombre completo">Nombre</label>
                 <input type="text" class="form-control" id="nombre">
             </div>
             <div class="mb-3">
-                <label for="asunto" class="text-white form-label" >Asunto</label>
+                <label for="asunto" class="text-white form-label" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Favor de ingresar un asunto descriptivo">Asunto</label>
                 <input type="text" class="form-control" id="asunto">
             </div>
             <div class="mb-3">
-                <label for="mensaje" class="text-white form-label" >Mensaje</label>
+                <label for="mensaje" class="text-white form-label" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Ingresa tu mensaje lo mas completo posible">Mensaje</label>
                 <textarea class="form-control" id="mensaje" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn bg-calipso text-white">Enviar</button>
+            <button type="submit" class="btn bg-calipso text-white" data-bs-toggle="popover"
+                data-bs-content="El Formulario se envió correctamente">Enviar</button>
         </form>
     </div>
 	
