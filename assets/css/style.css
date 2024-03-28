@@ -3,7 +3,10 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
+	background-color:#000;
 }
+
+hr {border-color:#1A191E;}
 
 .bg-calipso {
     background-color: #0DCAF0;
